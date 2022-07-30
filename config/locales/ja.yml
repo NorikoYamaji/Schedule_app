@@ -1,0 +1,9 @@
+ja:
+   activerecord:
+     models:
+       post: ポスト
+     attributes:
+       post:
+         title: タイトル
+         start_day: 開始日
+         end_day: 終了日
