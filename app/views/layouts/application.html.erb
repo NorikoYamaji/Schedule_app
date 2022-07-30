@@ -11,6 +11,27 @@
   </head>
 
   <body>
+    <header>
+        <h1>Ruby on Rails スケジュール管理アプリ</h1>
+    </header>
+
+    <main>
+
+    </main>
+
     <%= yield %>
+
+    <footer>
+      <h1>
+        現在の日時: <span class = "today_time"><%= Date.today.strftime("%Y年%m月%d日") %></span>
+
+        <% if controller.action_name == "index" %>
+          スケジュール合計: <%= Post.count %>
+        <% else %>
+        <% end %>
+
+      </h1>
+    </footer>
+
   </body>
 </html>

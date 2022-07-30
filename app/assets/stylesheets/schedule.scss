@@ -1,0 +1,39 @@
+header {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid orange;
+    background: orange;
+  }
+  
+  footer{
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    border-top: 7px solid orange;
+    background: orange;
+  }
+
+table th {
+    background-color: #fbc25b;
+    padding: 10px 20px;
+  }
+  
+  table td {
+    background-color: #f9ecd5;
+    padding: 10px 20px;
+  }
+  
+  .notice {
+    background-color: #ccf;
+    padding: 5px;
+  }
+
+  .flash {
+    padding: 15px 0;
+    color: rgb(241, 236, 236);
+    background: rgb(228, 183, 228);
+    text-align: center;
+    width: 500px;
+    border: 2px solid rgb(243, 146, 236);
+  } 

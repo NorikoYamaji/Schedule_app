@@ -3,13 +3,13 @@
 one:
   title: MyString
   start_day: 2022-07-30
-  end_day: 2022-07-30
+  end: 2022-07-30
   all_day: MyString
   memo: MyText
 
 two:
   title: MyString
   start_day: 2022-07-30
-  end_day: 2022-07-30
+  end: 2022-07-30
   all_day: MyString
   memo: MyText

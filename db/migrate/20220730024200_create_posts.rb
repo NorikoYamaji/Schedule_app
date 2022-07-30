@@ -3,7 +3,7 @@ class CreatePosts < ActiveRecord::Migration[6.1]
     create_table :posts do |t|
       t.string :title
       t.date :start_day
-      t.date :end_day
+      t.date :end
       t.string :all_day
       t.text :memo
 
