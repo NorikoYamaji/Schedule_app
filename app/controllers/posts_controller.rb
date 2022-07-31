@@ -41,7 +41,6 @@ class PostsController < ApplicationController
 
   def destroy
     @post = Post.find_by(id: params[:id])
-    binding.pry
     @post.destroy
     flash[:notice] = "スケジュールを削除しました"
     redirect_to :posts
