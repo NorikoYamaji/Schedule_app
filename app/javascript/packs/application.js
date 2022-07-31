@@ -8,6 +8,6 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-Rails.start()
-Turbolinks.start()
-ActiveStorage.start()
+Rails.start_day()
+Turbolinks.start_day()
+ActiveStorage.start_day()
