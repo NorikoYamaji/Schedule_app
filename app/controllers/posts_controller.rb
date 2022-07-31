@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  protect_from_forgery :except => [:destroy]
+
   def index
     @posts = Post.all #allメソッドはusersテーブルのレコードを全て取得できるメソッド
   end
@@ -38,7 +40,8 @@ class PostsController < ApplicationController
   end
 
   def destroy
-    @post = Post.find_day(params[:id])
+    @post = Post.find_by(id: params[:id])
+    binding.pry
     @post.destroy
     flash[:notice] = "スケジュールを削除しました"
     redirect_to :posts

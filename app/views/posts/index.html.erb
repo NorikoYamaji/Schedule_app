@@ -40,7 +40,7 @@
             <td><%= post.updated_at.to_s(:datetime_jp) %></td>
             <td><%= link_to "確認", post %></td>
             <td><%= link_to "編集", [:edit, post] %></td>
-            <td><%= link_to "削除", post, method: :delete, data: {confirm: "本当に削除しますか？"} %></td>
+            <td><%= button_to "削除", post, method: :delete %></td>
         </tr>
         <% end %>
         </tbody>
